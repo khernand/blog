@@ -1,7 +1,7 @@
 ---
 title: Switch Terminal.app Theme On SSH Connection
 date: "2021-02-11"
-description: "Changing Terminal.app Themes automatically on SSH connections."
+description: "Change Terminal.app Themes automatically when connecting to different SSH hosts."
 ---
 
 You are in your terminal, remoting into a server in your stage
