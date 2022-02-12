@@ -19,7 +19,7 @@ sure is nice.
 
 ## Set Up
 
-## Terminal Settings
+### Terminal Settings
 
 The terminal has a selection of themes available in the terminal
 preferences.
