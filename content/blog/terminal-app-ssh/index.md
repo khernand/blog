@@ -66,9 +66,11 @@ This defines the theme we will switch back to when an SSH connection
 closes.
 
 ```shell
+#! /bin/bash
+
 function ssh_alias() {
+  trap "osascript ~/Documents/scripts/changeTerminalTheme.scpt Basic" INT EXIT
   ssh "$@";
-  osascript ~/Documents/scripts/changeTerminalTheme.scpt Basic
 }
 
 alias ssh=ssh_alias
