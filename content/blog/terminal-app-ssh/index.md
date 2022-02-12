@@ -79,8 +79,7 @@ to be by default.
 
 ### SSH Config
 
-1. Edit `/etc/ssh/ssh_config` and ensure `PermitLocalCommand yes`
-is under your `Host *` config.
+1. Edit `/etc/ssh/ssh_config` and ensure `PermitLocalCommand yes` is under your `Host *` config.
 2. Edit `~/.ssh/config` and define the themes for any given host:
 ```shell
 Host your.production.host
@@ -92,10 +91,11 @@ preferences.
 
 ### We're Done!
 
-In this demo, the first terminal tab is to a server I defined to use
-the `Ocean` theme, the second tab is starting an SSH connection to a 
-server I defined using the `Other` theme. And the third tab has no 
-connection, so it uses my default, `Basic` theme.
+In this demo, I open up a connection to a server I have defined to use
+the `Ocean` theme. I then open a new tab which starts with my default
+`Basic` theme but changes when I SSH into a server defined to use the
+`Other` theme. I then exit the SSH connections and we can see the tab
+switching back to my default theme.
 
 ![AppleScript Demo](./final-demo.gif)
 
