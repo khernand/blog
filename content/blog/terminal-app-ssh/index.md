@@ -17,6 +17,10 @@ sure is nice.
 
 **Here's how I got it done on my Mac's default terminal, Terminal.app.**
 
+> Note: If you don't use Terminal.app as your terminal emulator,
+> you could replace all references of running the AppleScript with 
+> another script that interfaces with your terminal.
+
 ## Set Up
 
 ### Terminal Settings
@@ -100,5 +104,3 @@ the `Ocean` theme. I then open a new tab which starts with my default
 switching back to the default `Basic` theme.
 
 ![AppleScript Demo](./final-demo.gif)
-
-
