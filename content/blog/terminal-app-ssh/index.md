@@ -12,8 +12,8 @@ environment. Time to run that script to drop a bunch of database tables
 the same!
 
 Whether you're running commands on remote machines and want some piece
-of mind or just want a little more swag, adding some color to your SSH
-sure is nice.
+of mind or just want a little more swag, adding some color to distinguish 
+your SSH sessions sure is nice.
 
 **Here's how I got it done on my Mac's default terminal, Terminal.app.**
 
