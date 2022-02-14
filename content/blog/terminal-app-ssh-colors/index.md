@@ -48,13 +48,16 @@ that updates the current Terminal tab's theme.
 ```javascript
 on run argv
     tell application "Terminal"
+        set defaultTheme to name of default settings
+        if (count of argv) is 0 then set argv to {defaultTheme}
         set current settings of selected tab of front window to settings set (item 1 of argv)
     end tell
 end run
 ```
 
 This small script takes the name of any theme we have defined in our 
-Terminal preferences, and sets only the active tab to that theme.
+Terminal preferences, and sets only the active tab to that theme. If
+no theme name is passed, it uses the default theme.
 
 See our script in action:
 
@@ -66,22 +69,19 @@ Progress!
 
 Add this alias to your `~/.bash_aliases` and make sure it is sourced
 in your `~/.zshrc` (or `~/.bashrc`) with `source $HOME/.bash_aliases`.
-This defines the theme we will switch back to when an SSH connection
-closes.
+This switches the terminal back to our default theme when an SSH 
+connection closes.
 
 ```shell
 #! /bin/bash
 
 function ssh_alias() {
-  trap "osascript ~/Documents/scripts/changeTerminalTheme.scpt Basic" INT EXIT
+  trap "osascript ~/Documents/scripts/changeTerminalTheme.scpt" INT EXIT
   ssh "$@";
 }
 
 alias ssh=ssh_alias
 ```
-
-In the example above, I define `Basic` as the theme I want my terminal
-to be by default.
 
 ### SSH Config
 
