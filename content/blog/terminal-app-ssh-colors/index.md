@@ -11,7 +11,7 @@ environment. Time to run that script to drop a bunch of database tables
 *Sinking Feeling...* That was Stage, right? All these terminal tabs look
 the same!
 
-Whether you're running commands on remote machines and want some piece
+Whether you're running commands on remote machines and want some peace
 of mind or just want a little more swag, adding some color to distinguish 
 your SSH sessions sure is nice.
 
