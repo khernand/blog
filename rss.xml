@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hernandez's Blog RSS Feed]]></title><description><![CDATA[A personal blog for random things.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 06 Mar 2022 15:19:12 GMT</lastBuildDate><item><title><![CDATA[Switch Terminal.app Theme On SSH Connection]]></title><description><![CDATA[You are in your terminal, remoting into a server in your stage
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hernandez's Blog RSS Feed]]></title><description><![CDATA[A personal blog for random things.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 06 Mar 2022 15:43:45 GMT</lastBuildDate><item><title><![CDATA[Switch Terminal.app Theme On SSH Connection]]></title><description><![CDATA[You are in your terminal, remoting into a server in your stage
 environment. Time to run that script to drop a bunch of database tables
 (isn…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/terminal-app-ssh-colors/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/terminal-app-ssh-colors/</guid><pubDate>Thu, 11 Feb 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;You are in your terminal, remoting into a server in your stage
 environment. Time to run that script to drop a bunch of database tables
@@ -24,7 +24,7 @@ preferences.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3784f8bb268d0171e7049c97ba0c4f80/1134b/terminal-preferences.png&quot;
+    href=&quot;/blog/static/3784f8bb268d0171e7049c97ba0c4f80/1134b/terminal-preferences.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -37,13 +37,13 @@ preferences.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Terminal Preferences&quot;
         title=&quot;Terminal Preferences&quot;
-        src=&quot;/static/3784f8bb268d0171e7049c97ba0c4f80/f058b/terminal-preferences.png&quot;
-        srcset=&quot;/static/3784f8bb268d0171e7049c97ba0c4f80/c26ae/terminal-preferences.png 158w,
-/static/3784f8bb268d0171e7049c97ba0c4f80/6bdcf/terminal-preferences.png 315w,
-/static/3784f8bb268d0171e7049c97ba0c4f80/f058b/terminal-preferences.png 630w,
-/static/3784f8bb268d0171e7049c97ba0c4f80/40601/terminal-preferences.png 945w,
-/static/3784f8bb268d0171e7049c97ba0c4f80/78612/terminal-preferences.png 1260w,
-/static/3784f8bb268d0171e7049c97ba0c4f80/1134b/terminal-preferences.png 1470w&quot;
+        src=&quot;/blog/static/3784f8bb268d0171e7049c97ba0c4f80/f058b/terminal-preferences.png&quot;
+        srcset=&quot;/blog/static/3784f8bb268d0171e7049c97ba0c4f80/c26ae/terminal-preferences.png 158w,
+/blog/static/3784f8bb268d0171e7049c97ba0c4f80/6bdcf/terminal-preferences.png 315w,
+/blog/static/3784f8bb268d0171e7049c97ba0c4f80/f058b/terminal-preferences.png 630w,
+/blog/static/3784f8bb268d0171e7049c97ba0c4f80/40601/terminal-preferences.png 945w,
+/blog/static/3784f8bb268d0171e7049c97ba0c4f80/78612/terminal-preferences.png 1260w,
+/blog/static/3784f8bb268d0171e7049c97ba0c4f80/1134b/terminal-preferences.png 1470w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -62,7 +62,7 @@ of the default themes here or create our own.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3cff78b5ca18155dde0071312b113950/74866/settings.png&quot;
+    href=&quot;/blog/static/3cff78b5ca18155dde0071312b113950/74866/settings.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -75,11 +75,11 @@ of the default themes here or create our own.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Terminal Preferences&quot;
         title=&quot;Terminal Preferences&quot;
-        src=&quot;/static/3cff78b5ca18155dde0071312b113950/f058b/settings.png&quot;
-        srcset=&quot;/static/3cff78b5ca18155dde0071312b113950/c26ae/settings.png 158w,
-/static/3cff78b5ca18155dde0071312b113950/6bdcf/settings.png 315w,
-/static/3cff78b5ca18155dde0071312b113950/f058b/settings.png 630w,
-/static/3cff78b5ca18155dde0071312b113950/74866/settings.png 668w&quot;
+        src=&quot;/blog/static/3cff78b5ca18155dde0071312b113950/f058b/settings.png&quot;
+        srcset=&quot;/blog/static/3cff78b5ca18155dde0071312b113950/c26ae/settings.png 158w,
+/blog/static/3cff78b5ca18155dde0071312b113950/6bdcf/settings.png 315w,
+/blog/static/3cff78b5ca18155dde0071312b113950/f058b/settings.png 630w,
+/blog/static/3cff78b5ca18155dde0071312b113950/74866/settings.png 668w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -102,7 +102,7 @@ end run&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 Terminal preferences, and sets only the active tab to that theme. If
 no theme name is passed, it uses the default theme.&lt;/p&gt;
 &lt;p&gt;See our script in action:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/13a6f2506c95ce68685a9ca4916866d4/apple-script-demo.gif&quot; alt=&quot;AppleScript Demo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/13a6f2506c95ce68685a9ca4916866d4/apple-script-demo.gif&quot; alt=&quot;AppleScript Demo&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Progress!&lt;/p&gt;
 &lt;h3&gt;SSH Alias&lt;/h3&gt;
 &lt;p&gt;Add this alias to your &lt;code class=&quot;language-text&quot;&gt;~/.bash_aliases&lt;/code&gt; and make sure it is sourced
@@ -133,4 +133,4 @@ the &lt;code class=&quot;language-text&quot;&gt;Ocean&lt;/code&gt; theme. I then
 &lt;code class=&quot;language-text&quot;&gt;Basic&lt;/code&gt; theme but changes when I SSH into a server defined to use the
 &lt;code class=&quot;language-text&quot;&gt;Other&lt;/code&gt; theme. I then exit the SSH connections, and we can see each tab
 switching back to the default &lt;code class=&quot;language-text&quot;&gt;Basic&lt;/code&gt; theme.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/1ec1cd7128449a9c45f138d8ddd7d0c8/final-demo.gif&quot; alt=&quot;AppleScript Demo&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;img src=&quot;/blog/1ec1cd7128449a9c45f138d8ddd7d0c8/final-demo.gif&quot; alt=&quot;AppleScript Demo&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
