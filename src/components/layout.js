@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import ReactTooltip from "react-tooltip"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -24,11 +25,11 @@ const Layout = ({ location, title, children }) => {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
       <main>{children}</main>
-      {/*<footer>*/}
-      {/*  © {new Date().getFullYear()}, Built with*/}
-      {/*  {` `}*/}
-      {/*  <a href="https://www.gatsbyjs.com">Gatsby</a>*/}
-      {/*</footer>*/}
+      <footer>
+        © {new Date().getFullYear()} Kevin Hernandez.
+        <span data-for={"toolTip1"} data-place={"top"} data-tip={"Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License by the author."}> Some rights reserved. </span>
+        <ReactTooltip id="toolTip1" />
+      </footer>
     </div>
   )
 }

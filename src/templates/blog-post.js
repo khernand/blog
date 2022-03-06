@@ -31,6 +31,11 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
+          <a target={`_blank`} href={`https://github.com/khernand/blog/discussions`}>
+            Discuss/Comment on this post.
+          </a>
+          <br/>
+          <br/>
           <Bio />
         </footer>
       </article>
