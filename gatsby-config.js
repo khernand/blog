@@ -6,11 +6,11 @@ module.exports = {
       summary: `Sharing some of my hobbies, code, and random things I couldn't 
       already find on the internet. `,
     },
-    description: `A personal blog for random things.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       github: `khernand`,
     },
+    description: `A personal blog for random things.`,
+    siteUrl: `https://khernand.com`,
   },
   plugins: [
     `gatsby-plugin-image`,
