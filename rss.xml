@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hernandez's Blog RSS Feed]]></title><description><![CDATA[A personal blog for random things.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 06 Mar 2022 15:19:12 GMT</lastBuildDate><item><title><![CDATA[Switch Terminal.app Theme On SSH Connection]]></title><description><![CDATA[You are in your terminal, remoting into a server in your stage
+environment. Time to run that script to drop a bunch of database tables
+(isn…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/terminal-app-ssh-colors/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/terminal-app-ssh-colors/</guid><pubDate>Thu, 11 Feb 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;You are in your terminal, remoting into a server in your stage
+environment. Time to run that script to drop a bunch of database tables
+(isn’t Friday at 4:59 PM the best?)!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sinking Feeling…&lt;/em&gt; That was Stage, right? All these terminal tabs look
+the same!&lt;/p&gt;
+&lt;p&gt;Whether you’re running commands on remote machines and want some peace
+of mind or just want a little more swag, adding some color to distinguish
+your SSH sessions sure is nice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Here’s how I got it done on my Mac’s default terminal, Terminal.app.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: If you don’t use Terminal.app as your terminal emulator,
+you could replace all references of running the AppleScript with
+another script that interfaces with your terminal.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Set Up&lt;/h2&gt;
+&lt;h3&gt;Terminal Settings&lt;/h3&gt;
+&lt;p&gt;The terminal has a selection of themes available in the terminal
+preferences.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3784f8bb268d0171e7049c97ba0c4f80/1134b/terminal-preferences.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 91.77215189873418%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAADjklEQVQ4y21Ua2/jVBC1VGhL0xAnKdKSNokf1287duzcxLHzaLrdpCwItlroSlSgFQorwQ/gGxLwjV+MKtJ70Nw0WyrthyN77h2fmTkzY8W17VoS9X4KPf9nz7LXnu1IuJa9dky2NjrddRyE68jz165lrV1myTv/we8B7zzb+UHrdD9RmG7wyPMRuh48y34PsuMgRDHK0Y96SHsxfNtBLwgefW3nyTft1qmpdNsdzjT9nnW795ZubByTbWzD3HiWvQldbzMacPnu287GZdb2adkbpukb8ifYhilsw/yn9ewZU07qKndtF1k6ogxEp3Uq2p+3hHbWFo7BxKyciCzpi14QitDzReQHIg4jEYehPEuinjA6Xejtzt1njSZTKh8f8uGQ49XrbzApSpHGCXphBNeyMJ1NcD6dvS+XQDKQzfspsqQPIg8cF5Zu3NVrNaYcKId8shjizS9fY7VcicVigdl0Ct9x0R/00fMDqaHLLKkTESZhhCxJkMUJIs8XFIjtCFsnKjdMF7qXIw4CQQSd1ilFRJ5xUHSzq8ExGWzDlHh+vkCZj+W5pRukH5im3zVUlSmKssevLsf46/e3GGYDMUwzmY3DLIyygcyIMtuR0V0chvJJtmMyQcH+R6jwl5cT/P3nr1SmoMz0dkdmNBkXWExnsjT62NJNRJ6L775aYJCku0BPCQ8UhY/LBW7f/YZBksjLXYmTfIxZWWJeTkirLaHr4tV8hGlRSn2p5CeE1Y8Uno1WeHHzB/phJAXe6UU6zSczjNIhBUMc+WCdLrS2JoN+sORqrcJTL8YX+Yq2QFC53dMzWIaJeV7goszBywC8z5H7UwyKKaZFITv9oONTwtpRhSdxgsXlJTVAkJNP2jCGBc9xNU6x+j7F6uJLvIxvcf76Da6vrzFKBx8mPKyqPA883JQctAk0JtpZW5ZzMT9HHMUw2wZswwAzu3B0HT2LyYY8SPNIWFOZsr+/z8sBx9tvb8DTjMaGHKjbYloUYvX8UqRxLLbzxoRn2WIUbdeO/IiQJsPsanfNep0pB3t7wyIvcHv7oyQb86HcXXLM4kTaPT+QtrttgLC2P4Md4T3NqmOyu+pRhSknjeaAtIg8b7ujaSr31NR0KoNWSnZUQtMezx9A57SmTDf+rR1XTaWuqpWGql6on9ZW1crx8vioItGsN5bNen3ZUOvLE/n+YZw0GstatXrVVOtztaYe/gfiFNoYb1t+fQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Terminal Preferences&quot;
+        title=&quot;Terminal Preferences&quot;
+        src=&quot;/static/3784f8bb268d0171e7049c97ba0c4f80/f058b/terminal-preferences.png&quot;
+        srcset=&quot;/static/3784f8bb268d0171e7049c97ba0c4f80/c26ae/terminal-preferences.png 158w,
+/static/3784f8bb268d0171e7049c97ba0c4f80/6bdcf/terminal-preferences.png 315w,
+/static/3784f8bb268d0171e7049c97ba0c4f80/f058b/terminal-preferences.png 630w,
+/static/3784f8bb268d0171e7049c97ba0c4f80/40601/terminal-preferences.png 945w,
+/static/3784f8bb268d0171e7049c97ba0c4f80/78612/terminal-preferences.png 1260w,
+/static/3784f8bb268d0171e7049c97ba0c4f80/1134b/terminal-preferences.png 1470w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;These themes can be really detailed and are what we are going to switch
+dynamically when connecting to different SSH connections. We can use any
+of the default themes here or create our own.&lt;/p&gt;
+&lt;p&gt;While we are here, We want to tweak the setting to ensure
+&lt;code class=&quot;language-text&quot;&gt;New tabs open with: Default Profile&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3cff78b5ca18155dde0071312b113950/74866/settings.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 91.13924050632912%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqklEQVQ4y31U2W7iQBD0VyQE4/u+77GdzQYICUi5FMh9aVf7//9Qqx4wmOzxUGpr3N2u6qm2MG9b1HWDqijXKCuwskJ9PEZdt6gZw3Q8xXQyRZEXqFmNhjUoi3ILqkmTFNdX1xCKsuIHVcV4zLMcjIouPzE5m+P87AxN3WA+X6BtW8xmM8wvFrw529RQpLr5xRyCpRuwdBOmZsCzHaRRgiSMEYcJ/LCAbzsI/QC+4yHyQ5iaDlORec261oCtm9BkFQ2rIcjDEToYsorA8TgszUSYtrhcLDA9nWBycorZeIqGHcONTiAfiVA2dYooQTwYoEgyCOpIRgd6IR2JPImia5hoWY0sTpGEESLPRxKmsP2a5yojiUeqHQ2GKLMcQnfQRYImKTw6po08TpHSCPwQoesjcn34prnNI+iyum6Y5muG/abEjEDPsRcgo5kGEQc1L9IceZzx5t05fZBUVVmxk0wHlmYgTzKe5LsBguwEVZptmqQwVX2byyWLO8ni4RGqvNyXTPTpxmzdgK5oiKMM35oWdcnQlIwzoAvry91JFsGKal8yvex/VR1J3E50zllRjqzyBn0YigZZlLg6oZNAM6FZ8AsIQs5keXuHt5dXPN0/4vbqCjc3K6Tfn9aW+SJ5dDjcNezkupYD33bhWQ4cw8L98h6f7x94fX7Bw3KF+4dXZOM3TqBvtz3b9CUTS7JH5AUIHBdPqxV+/fiJj7d3PK5WuFs+I518QhoM+Tj6tX/1YWcZKpBHChI2Q1FPULBTvgVZnMF1Y+6Gbt77DIt9hjtIUGQDTtQgdFyEbsD3mFjH3nrWZKGvDfd8+CckKMP94XfofNjfrOHBAFVeQFC2Jh1tl13uLf2/0M+hSE3bqoag6zZ01YCmGtxzVofe7+l/oEWwNr++i9k5fgOrsxF67AvHTgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Terminal Preferences&quot;
+        title=&quot;Terminal Preferences&quot;
+        src=&quot;/static/3cff78b5ca18155dde0071312b113950/f058b/settings.png&quot;
+        srcset=&quot;/static/3cff78b5ca18155dde0071312b113950/c26ae/settings.png 158w,
+/static/3cff78b5ca18155dde0071312b113950/6bdcf/settings.png 315w,
+/static/3cff78b5ca18155dde0071312b113950/f058b/settings.png 630w,
+/static/3cff78b5ca18155dde0071312b113950/74866/settings.png 668w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;AppleScript&lt;/h3&gt;
+&lt;p&gt;Now, let’s create an AppleScript,
+&lt;code class=&quot;language-text&quot;&gt;$HOME/Documents/scripts/changeTerminalTheme.scpt&lt;/code&gt;,
+that updates the current Terminal tab’s theme.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;on run argv
+    tell application &lt;span class=&quot;token string&quot;&gt;&quot;Terminal&quot;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; defaultTheme to name &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; settings
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;count &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; argv&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; is &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; then &lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; argv to &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;defaultTheme&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; current settings &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; selected tab &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; front window to settings &lt;span class=&quot;token function&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;item &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; argv&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    end tell
+end run&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This small script takes the name of any theme we have defined in our
+Terminal preferences, and sets only the active tab to that theme. If
+no theme name is passed, it uses the default theme.&lt;/p&gt;
+&lt;p&gt;See our script in action:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/13a6f2506c95ce68685a9ca4916866d4/apple-script-demo.gif&quot; alt=&quot;AppleScript Demo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Progress!&lt;/p&gt;
+&lt;h3&gt;SSH Alias&lt;/h3&gt;
+&lt;p&gt;Add this alias to your &lt;code class=&quot;language-text&quot;&gt;~/.bash_aliases&lt;/code&gt; and make sure it is sourced
+in your &lt;code class=&quot;language-text&quot;&gt;~/.zshrc&lt;/code&gt; (or &lt;code class=&quot;language-text&quot;&gt;~/.bashrc&lt;/code&gt;) with &lt;code class=&quot;language-text&quot;&gt;source $HOME/.bash_aliases&lt;/code&gt;.
+This switches the terminal back to our default theme when an SSH
+connection closes.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#! /bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function-name function&quot;&gt;ssh_alias&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token builtin class-name&quot;&gt;trap&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;osascript ~/Documents/scripts/changeTerminalTheme.scpt&quot;&lt;/span&gt; INT EXIT
+  &lt;span class=&quot;token function&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$@&lt;/span&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ssh&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ssh_alias&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;SSH Config&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Edit &lt;code class=&quot;language-text&quot;&gt;/etc/ssh/ssh_config&lt;/code&gt; and ensure &lt;code class=&quot;language-text&quot;&gt;PermitLocalCommand yes&lt;/code&gt; is under your &lt;code class=&quot;language-text&quot;&gt;Host *&lt;/code&gt; config.&lt;/li&gt;
+&lt;li&gt;Edit &lt;code class=&quot;language-text&quot;&gt;~/.ssh/config&lt;/code&gt; and define the themes for any given host:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Host your.production.host
+   User root
+   LocalCommand osascript ~/Documents/scripts/changeTerminalTheme.scpt &lt;span class=&quot;token string&quot;&gt;&quot;Solid Colors&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Replace &lt;code class=&quot;language-text&quot;&gt;Solid Colors&lt;/code&gt; here with any theme defined in your terminal
+preferences.&lt;/p&gt;
+&lt;h3&gt;We’re Done!&lt;/h3&gt;
+&lt;p&gt;In this demo, I open up a connection to a server I have defined to use
+the &lt;code class=&quot;language-text&quot;&gt;Ocean&lt;/code&gt; theme. I then open a new tab which starts with my default
+&lt;code class=&quot;language-text&quot;&gt;Basic&lt;/code&gt; theme but changes when I SSH into a server defined to use the
+&lt;code class=&quot;language-text&quot;&gt;Other&lt;/code&gt; theme. I then exit the SSH connections, and we can see each tab
+switching back to the default &lt;code class=&quot;language-text&quot;&gt;Basic&lt;/code&gt; theme.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/1ec1cd7128449a9c45f138d8ddd7d0c8/final-demo.gif&quot; alt=&quot;AppleScript Demo&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
