@@ -61,7 +61,9 @@ no theme name is passed, it uses the default theme.
 
 See our script in action:
 
-![AppleScript Demo](./apple-script-demo.gif)
+<p align="center">
+  <img width="630" src="./apple-script-demo.gif">
+</p>
 
 Progress!
 
@@ -103,4 +105,6 @@ the `Ocean` theme. I then open a new tab which starts with my default
 `Other` theme. I then exit the SSH connections, and we can see each tab
 switching back to the default `Basic` theme.
 
-![AppleScript Demo](./final-demo.gif)
+<p align="center">
+  <img width="630" src="./final-demo.gif">
+</p>
