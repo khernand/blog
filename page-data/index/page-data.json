@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-index-js",
-    "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Kevin's Blog"}},"allMarkdownRemark":{"nodes":[{"excerpt":"You are in your terminal, remoting into a server in your stage\nenvironment. Time to run that script to drop a bunch of database tables\n(isn…","fields":{"slug":"/terminal-app-ssh-colors/"},"frontmatter":{"date":"February 11, 2021","title":"Switch Terminal.app Theme On SSH Connection","description":"Change Terminal.app Themes automatically when connecting to different SSH hosts."}}]}},"pageContext":{}},
-    "staticQueryHashes": ["230163734","2841359383"]}
+{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"site":{"siteMetadata":{"title":"Kevin's Blog"}},"allMarkdownRemark":{"nodes":[{"excerpt":"You are in your terminal, remoting into a server in your stage\nenvironment. Time to run that script to drop a bunch of database tables\n(isn…","fields":{"slug":"/terminal-app-ssh-colors/"},"frontmatter":{"date":"February 11, 2021","title":"Switch Terminal.app Theme On SSH Connection","description":"Change Terminal.app Themes automatically when connecting to different SSH hosts."}}]}},"pageContext":{}},"staticQueryHashes":["230163734","2841359383"],"slicesMap":{}}

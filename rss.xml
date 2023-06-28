@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hernandez's Blog RSS Feed]]></title><description><![CDATA[A personal blog for random things.]]></description><link>https://khernand.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 06 Mar 2022 18:33:48 GMT</lastBuildDate><item><title><![CDATA[Switch Terminal.app Theme On SSH Connection]]></title><description><![CDATA[You are in your terminal, remoting into a server in your stage
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hernandez's Blog RSS Feed]]></title><description><![CDATA[A personal blog for random things.]]></description><link>https://khernand.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 28 Jun 2023 00:49:55 GMT</lastBuildDate><item><title><![CDATA[Switch Terminal.app Theme On SSH Connection]]></title><description><![CDATA[You are in your terminal, remoting into a server in your stage
 environment. Time to run that script to drop a bunch of database tables
 (isn…]]></description><link>https://khernand.com/terminal-app-ssh-colors/</link><guid isPermaLink="false">https://khernand.com/terminal-app-ssh-colors/</guid><pubDate>Thu, 11 Feb 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;You are in your terminal, remoting into a server in your stage
 environment. Time to run that script to drop a bunch of database tables
@@ -31,12 +31,12 @@ preferences.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 91.77215189873418%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAADjklEQVQ4y21Ua2/jVBC1VGhL0xAnKdKSNokf1287duzcxLHzaLrdpCwItlroSlSgFQorwQ/gGxLwjV+MKtJ70Nw0WyrthyN77h2fmTkzY8W17VoS9X4KPf9nz7LXnu1IuJa9dky2NjrddRyE68jz165lrV1myTv/we8B7zzb+UHrdD9RmG7wyPMRuh48y34PsuMgRDHK0Y96SHsxfNtBLwgefW3nyTft1qmpdNsdzjT9nnW795ZubByTbWzD3HiWvQldbzMacPnu287GZdb2adkbpukb8ifYhilsw/yn9ewZU07qKndtF1k6ogxEp3Uq2p+3hHbWFo7BxKyciCzpi14QitDzReQHIg4jEYehPEuinjA6Xejtzt1njSZTKh8f8uGQ49XrbzApSpHGCXphBNeyMJ1NcD6dvS+XQDKQzfspsqQPIg8cF5Zu3NVrNaYcKId8shjizS9fY7VcicVigdl0Ct9x0R/00fMDqaHLLKkTESZhhCxJkMUJIs8XFIjtCFsnKjdMF7qXIw4CQQSd1ilFRJ5xUHSzq8ExGWzDlHh+vkCZj+W5pRukH5im3zVUlSmKssevLsf46/e3GGYDMUwzmY3DLIyygcyIMtuR0V0chvJJtmMyQcH+R6jwl5cT/P3nr1SmoMz0dkdmNBkXWExnsjT62NJNRJ6L775aYJCku0BPCQ8UhY/LBW7f/YZBksjLXYmTfIxZWWJeTkirLaHr4tV8hGlRSn2p5CeE1Y8Uno1WeHHzB/phJAXe6UU6zSczjNIhBUMc+WCdLrS2JoN+sORqrcJTL8YX+Yq2QFC53dMzWIaJeV7goszBywC8z5H7UwyKKaZFITv9oONTwtpRhSdxgsXlJTVAkJNP2jCGBc9xNU6x+j7F6uJLvIxvcf76Da6vrzFKBx8mPKyqPA883JQctAk0JtpZW5ZzMT9HHMUw2wZswwAzu3B0HT2LyYY8SPNIWFOZsr+/z8sBx9tvb8DTjMaGHKjbYloUYvX8UqRxLLbzxoRn2WIUbdeO/IiQJsPsanfNep0pB3t7wyIvcHv7oyQb86HcXXLM4kTaPT+QtrttgLC2P4Md4T3NqmOyu+pRhSknjeaAtIg8b7ujaSr31NR0KoNWSnZUQtMezx9A57SmTDf+rR1XTaWuqpWGql6on9ZW1crx8vioItGsN5bNen3ZUOvLE/n+YZw0GstatXrVVOtztaYe/gfiFNoYb1t+fQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 91.77215189873418%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAADWUlEQVR42o1UTYvjRhDVYUyYEQxjH2J2Y1tSq1tSS2p92ZLHsuy1Yns+CLtMloWEhHxAIJBrDiHsIZ5DLvm9gaw38nSFao+HHSaBHB6SS9WvXr2qtmYYxlkixFvB+a3vOL/5jrNBeBRBN9Q0N0kYbiI/vI85G+8+5wDO2C1n7C1yaYSQMPKDJvYDCD0uQ9eDwPUgCQUM4wTq2RxGSQpFNgTBfciiWH3DnNDjj9Dv9wOt1+uFtmFuycC4oxZpHGLvEC5lO86c3ShJ1dOjbOfadOcxR32jFtnDtHbMInfMIrt+txtobV0XvsubyeQFRH4gB8+eQ//Zc7D6A1V1uaghz4YQhwKEH0AUCkhEBGkUqVgaxUBNC4hhQrfdDbWW1hLj8ah5/dUNzKuZLEY5DNMMuONCNZ/Ci2oGozQD33EVDlagBXmaPbTPiA3tdntPmE/S5ubbz+D66lrWixqm5VQlpVkCgcchDkLgzFGIghBSEcEwSdUTfcU4s8ie8GNdF54XNNn5Ekkktml+0gNqEciTTB3AllybKjjEhkU1h+n5RMXxN8bpgVDTNLGu8+b3zTcwKQo5HuWqNUw6TNaj7IEQ30dpovz9MPaIcFmNm9tff0Q/JFbFgWAirszFcgXno1wpwbZCz4OvXy/hUBjjTwin1UXzw89/KEKXsoekuprB5XIFl6u12kXf2e/oejxURVD9E0K9pYkonTf157/AJC/koSoCp4hKYh6pwYiAAzNMoIb50O6TlnVdFxmPmpflpbopZGCA1eurNagnU7ialVCuQyjzEip+Aef1BaxXK6UYp/svCnURi6ip609RhcQkpZJSWIwnsCwyqF9lsFysYJXcwPz6JVxdXqkreBjWI8KW3haF7zVfVmNMkrhnJiq0CCyqmTrITHJvAwGP2JByrrz8zylXxfjvn777Hg/fISlnjmQWkbNyKi+WKzmME+kQW7o2lZwymQe+jEMhPcpUDItR05JdpbDVEsUwb968+QLKYixnk3K/JjZVV6wsxmogByUIhsruvcM43me0qq3rodbpdHyH2H8Gjvs+CcW7LE62wyTZ2oaxJYa5tU0L/4kew/jgvT9451L2nprWX51Oh2PLH52cnMTHx8f50dHR6IDT09P/DTx7dnYWI9c/JvzaiWjg7k0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Terminal Preferences&quot;
-        title=&quot;Terminal Preferences&quot;
+        title=&quot;&quot;
         src=&quot;/static/3784f8bb268d0171e7049c97ba0c4f80/f058b/terminal-preferences.png&quot;
         srcset=&quot;/static/3784f8bb268d0171e7049c97ba0c4f80/c26ae/terminal-preferences.png 158w,
 /static/3784f8bb268d0171e7049c97ba0c4f80/6bdcf/terminal-preferences.png 315w,
@@ -69,12 +69,12 @@ of the default themes here or create our own.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 91.13924050632912%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqklEQVQ4y31U2W7iQBD0VyQE4/u+77GdzQYICUi5FMh9aVf7//9Qqx4wmOzxUGpr3N2u6qm2MG9b1HWDqijXKCuwskJ9PEZdt6gZw3Q8xXQyRZEXqFmNhjUoi3ILqkmTFNdX1xCKsuIHVcV4zLMcjIouPzE5m+P87AxN3WA+X6BtW8xmM8wvFrw529RQpLr5xRyCpRuwdBOmZsCzHaRRgiSMEYcJ/LCAbzsI/QC+4yHyQ5iaDlORec261oCtm9BkFQ2rIcjDEToYsorA8TgszUSYtrhcLDA9nWBycorZeIqGHcONTiAfiVA2dYooQTwYoEgyCOpIRgd6IR2JPImia5hoWY0sTpGEESLPRxKmsP2a5yojiUeqHQ2GKLMcQnfQRYImKTw6po08TpHSCPwQoesjcn34prnNI+iyum6Y5muG/abEjEDPsRcgo5kGEQc1L9IceZzx5t05fZBUVVmxk0wHlmYgTzKe5LsBguwEVZptmqQwVX2byyWLO8ni4RGqvNyXTPTpxmzdgK5oiKMM35oWdcnQlIwzoAvry91JFsGKal8yvex/VR1J3E50zllRjqzyBn0YigZZlLg6oZNAM6FZ8AsIQs5keXuHt5dXPN0/4vbqCjc3K6Tfn9aW+SJ5dDjcNezkupYD33bhWQ4cw8L98h6f7x94fX7Bw3KF+4dXZOM3TqBvtz3b9CUTS7JH5AUIHBdPqxV+/fiJj7d3PK5WuFs+I518QhoM+Tj6tX/1YWcZKpBHChI2Q1FPULBTvgVZnMF1Y+6Gbt77DIt9hjtIUGQDTtQgdFyEbsD3mFjH3nrWZKGvDfd8+CckKMP94XfofNjfrOHBAFVeQFC2Jh1tl13uLf2/0M+hSE3bqoag6zZ01YCmGtxzVofe7+l/oEWwNr++i9k5fgOrsxF67AvHTgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 91.13924050632912%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAACg0lEQVR42pVU61LaYBDNWygEEkjI9cv9DozDtUXaKopWy4id2vd/h9PZhSigM21/nEny7e7J2d2TSIvBAFXVR57lryjyHNVwjKoaoCxKjEdjTCdTjlVlhX7VR5ZmB/kF4ijG8nIJKcsLPiBQME1Svu9/2WI0u8Sn2YxJFp8XGA6GTHy5WDJhXUcvpbr5bA7J0HrYQYdtWIj8kBH6IVw/g2vZ8F0PwnYQCI/zdEXBW10Ppm5AU7so0hySKrdRQ1M6cE0bnu3C1AyIoMLXxRKz8QTjixHm4ykG5RBOOIJyUNdpKWidNViIRA81KKg0Wzs0ZFiajiovkYQRQi+A7wiEXghLlDis67ZVtM+biIPomLAOEuje0k0kYYyYRiB8JgxcAWEanEMd1dd2Q/6YkNRRkNQGjmCyyAuYMAkipFHML/FIrfAZlNOR2xyXDts1ujrSKGECz/Eg4gsUcYKMECUcJ0U8N1lhkk49w/Mm0jA+VkjJJm2NNql24XsRhmUfZVagygrkccrKOvux1KhbJjHSIRkFjmepsCo6V/ZKyB6n0Dsa1JbytmVqQdgutxrtFyAsBzdX19hunvD4/QGrb1e4vl4jnTxBld8vkhQe2YYOHcNiIvIitX67usHP7TM2jxvcr+9wf/8D2fT5Y8KPbEOGDsgermDSu9UKv19e8Py0xcP6DuvbB6TTX1Ca1H7774Rsmb1tFFlBkE+RlmOkxYgHTrZwnJDVn86btpycEr5ujp4VDZZXwbcdeDYZ2uNxkDcjP+Bl1Z9dPcPk1DbvILfYZ3WhevL9HgqRzxo7H6py6yhRbe4h/x+ItKS/ja5b0Ls9Bv2KLL23M7du/DOozjFtzCcz/AGWkRMxlPm3nAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Terminal Preferences&quot;
-        title=&quot;Terminal Preferences&quot;
+        title=&quot;&quot;
         src=&quot;/static/3cff78b5ca18155dde0071312b113950/f058b/settings.png&quot;
         srcset=&quot;/static/3cff78b5ca18155dde0071312b113950/c26ae/settings.png 158w,
 /static/3cff78b5ca18155dde0071312b113950/6bdcf/settings.png 315w,
@@ -102,7 +102,9 @@ end run&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 Terminal preferences, and sets only the active tab to that theme. If
 no theme name is passed, it uses the default theme.&lt;/p&gt;
 &lt;p&gt;See our script in action:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/13a6f2506c95ce68685a9ca4916866d4/apple-script-demo.gif&quot; alt=&quot;AppleScript Demo&quot;&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img width=&quot;630&quot; src=&quot;/13a6f2506c95ce68685a9ca4916866d4/apple-script-demo.gif&quot;&gt;
+&lt;/p&gt;
 &lt;p&gt;Progress!&lt;/p&gt;
 &lt;h3&gt;SSH Alias&lt;/h3&gt;
 &lt;p&gt;Add this alias to your &lt;code class=&quot;language-text&quot;&gt;~/.bash_aliases&lt;/code&gt; and make sure it is sourced
@@ -133,4 +135,6 @@ the &lt;code class=&quot;language-text&quot;&gt;Ocean&lt;/code&gt; theme. I then
 &lt;code class=&quot;language-text&quot;&gt;Basic&lt;/code&gt; theme but changes when I SSH into a server defined to use the
 &lt;code class=&quot;language-text&quot;&gt;Other&lt;/code&gt; theme. I then exit the SSH connections, and we can see each tab
 switching back to the default &lt;code class=&quot;language-text&quot;&gt;Basic&lt;/code&gt; theme.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/1ec1cd7128449a9c45f138d8ddd7d0c8/final-demo.gif&quot; alt=&quot;AppleScript Demo&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img width=&quot;630&quot; src=&quot;/1ec1cd7128449a9c45f138d8ddd7d0c8/final-demo.gif&quot;&gt;
+&lt;/p&gt;</content:encoded></item></channel></rss>
